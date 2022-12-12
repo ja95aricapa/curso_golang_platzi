@@ -20,7 +20,7 @@ func doubleReturn(a int) (c int, d int) {
 	return a, a * 2
 }
 
-func main() {
+func main5s() {
 	normalFunction("Hola mundo")
 	tripleArgumentFunction(1, 2, "Hello World!")
 	value := returnValuesFunction(3, 2)
