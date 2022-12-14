@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main8() {
 	//Defer
 	defer fmt.Println("Hola") // It is executed at the end of the code, it is recommended to use a maximum of one defers per function
 	//In the case there is more than one defer, they will be treated as a stack (LIFO)
